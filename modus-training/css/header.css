@@ -1,0 +1,59 @@
+body,html{
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+}
+
+div{
+	display: block;
+}
+
+.header{
+	width: 100%;
+	position: relative;
+	display: block;
+	background-color: rgba(166, 89, 128, 1);
+	height: 80px;
+	padding-left: 163px;
+}
+
+.header .logo{
+	display: block;
+	float: left;
+	margin-right: 221px;
+}
+
+.header .menu{
+	width: 802px;
+	float: left;
+	position: relative;
+	display: block;
+}
+
+.header .menu-list{
+	padding: 0;
+	margin: 0;
+}
+
+.header .menu-list li{
+	padding-left: 0;
+	list-style: none;
+	display: inline-block;
+	margin:0 21.5px;
+}
+
+.header .menu, .logo, a{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+	line-height: 80px;
+	display: inline-block;
+}
+.menu-list{
+	cursor: default;
+}
+.header .menu-list li a:hover{
+	transition: 0.3s;
+	border-bottom: 5px solid orange;
+}
