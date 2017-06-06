@@ -1,4 +1,4 @@
-body,html{
+body, html{
 	margin: 0;
 	padding: 0;
 	font-family: monospace;
@@ -13,19 +13,21 @@ div{
 	position: relative;
 	display: block;
 	background-color: rgba(166, 89, 128, 1);
-	height: 80px;
-	padding-left: 163px;
 }
 
-.header .logo{
+.header, .logo, .menu{
 	display: block;
 	float: left;
-	margin-right: 221px;
+	height: 80px;
+}
+
+.logo>img{
+	height: 80px;
 }
 
 .header .menu{
 	width: 802px;
-	float: left;
+	float: right;
 	position: relative;
 	display: block;
 }
@@ -42,7 +44,7 @@ div{
 	margin:0 21.5px;
 }
 
-.header .menu, .logo, a{
+.header .menu, a{
 	text-decoration: none;
 	color: white;
 	font-size: 15px;
@@ -53,7 +55,15 @@ div{
 .menu-list{
 	cursor: default;
 }
-.header .menu-list li a:hover{
+.header .menu-list li :hover{
 	transition: 0.3s;
-	border-bottom: 5px solid orange;
+	border-bottom: 5px solid rgb(32,168,218);
+}
+.header-container{
+	width: 1089px;
+	height: 80px;
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
