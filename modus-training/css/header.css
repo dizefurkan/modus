@@ -8,6 +8,10 @@ div{
 	display: block;
 }
 
+.clearfix{
+	clear:both;
+}
+
 .header{
 	width: 100%;
 	position: relative;
@@ -41,7 +45,7 @@ div{
 	padding-left: 0;
 	list-style: none;
 	display: inline-block;
-	margin:0 21.5px;
+	margin:0 11.5px;
 }
 
 .header .menu, a{
@@ -55,7 +59,7 @@ div{
 .menu-list{
 	cursor: default;
 }
-.header .menu-list li :hover{
+.header .menu-list li a:hover{
 	transition: 0.3s;
 	border-bottom: 5px solid rgb(32,168,218);
 }
@@ -66,4 +70,28 @@ div{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: .5px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: black;
+    background-image: url('../media/search.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    float: right;
+}
+
+.searchbutton:focus {
+    width: 100%;
+}
+
+.pageheadline{
+	position: relative;
 }
