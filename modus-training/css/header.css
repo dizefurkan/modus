@@ -101,10 +101,26 @@ input::placeholder{
 }
 
 input[type=text]:focus {
-    width: 25%;
+    width: 400px;
 }
 
 .pageheadline{
 	position: relative;
-  text-align: center;
+}
+
+.pageheadline .leftline{
+  float: left;
+}
+
+.pageheadline .rightline{
+  float: right;
+}
+
+.container{
+  position: relative;
+  display: block;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
