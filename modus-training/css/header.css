@@ -61,7 +61,7 @@ div{
 }
 .header .menu-list li a:hover{
 	transition: 0.3s;
-	border-bottom: 5px solid rgb(32,168,218);
+  text-decoration: underline;
 }
 .header-container{
 	width: 1089px;
@@ -73,25 +73,38 @@ div{
 }
 
 input[type=text] {
-    width: 130px;
+    width: 15px;
     box-sizing: border-box;
     border: .5px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
-    background-color: black;
+    background-color: rgb(200,200,200);
     background-image: url('../media/search.png');
     background-position: 10px 10px; 
     background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
+    padding: 10px 20px 12px 40px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
-    float: right;
+    display: block;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    right: 0;
 }
 
-.searchbutton:focus {
-    width: 100%;
+input::placeholder{
+  color:white;
+}
+
+.searchbutton:focus input[type=text]{
+  display: block;
+}
+
+input[type=text]:focus {
+    width: 25%;
 }
 
 .pageheadline{
 	position: relative;
+  text-align: center;
 }
