@@ -1,0 +1,19 @@
+.container{
+  position: relative;
+  display: block;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pageheadline{
+  position: relative;
+}
+
+.pageheadline .leftline{
+  float: left;
+}
+
+.pageheadline .rightline{
+  float: right;
+}
