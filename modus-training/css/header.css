@@ -72,13 +72,11 @@ div{
 	margin-right: auto;
 }
 
-input[type=text] {
+.search {
     width: 15px;
     box-sizing: border-box;
     border: .5px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: rgb(200,200,200);
+    background-color: rgba(200,200,200,0.98);
     background-image: url('../media/search.png');
     background-position: 10px 10px; 
     background-repeat: no-repeat;
@@ -86,21 +84,18 @@ input[type=text] {
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     display: block;
-    color: white;
+    color: rgba(100,100,100,1);
     position: absolute;
     z-index: 1;
+    font-size: bold;
     right: 0;
 }
 
-input::placeholder{
+.search:placeholder{
   color:white;
 }
 
-.searchbutton:focus input[type=text]{
-  display: block;
-}
-
-input[type=text]:focus {
+.search:focus {
     width: 400px;
 }
 
