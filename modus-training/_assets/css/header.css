@@ -81,6 +81,8 @@
   border-bottom: 1px solid white;
   color: white;
   transition: 0.7s;
+  line-height: 3;           /* Irrelevant, I guess */
+  text-align: center;
 }
 
 #searchbutton::placeholder{
@@ -89,6 +91,18 @@
 
 #searchbutton:focus{
   width: 80%;
+  border:none;
+  border-bottom: 1px solid white;
   z-index: 2;
   background-color: rgba(166, 89, 128, 0.9);
+}
+
+#searchbutton::-webkit-search-cancel-button{
+    position:relative;
+    right:20px;  
+    -webkit-appearance: none;
+    height: 10px;
+    width: 10px;
+    border-radius:10px;
+    background: white;
 }
