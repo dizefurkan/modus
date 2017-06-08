@@ -36,7 +36,7 @@
 	padding-left: 0;
 	list-style: none;
 	display: inline-block;
-	margin:0 11.5px;
+  padding: 0 11.5px;
 }
 
 .header .menu, a{
@@ -47,13 +47,16 @@
 	line-height: 80px;
 	display: inline-block;
 }
+
 .menu-list{
 	cursor: default;
 }
+
 .header .menu-list li a:hover{
 	transition: 0.3s;
   text-decoration: underline;
 }
+
 .header-container{
 	width: 1089px;
 	height: 80px;
@@ -63,47 +66,29 @@
 	margin-right: auto;
 }
 
-.searchbutton{
-    width: 150px;
-    border: .5px solid transparent;
-    background-color: rgba(220,220,220,0.70);
-    padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.6s ease-in-out;
-    display: block;
-    color: rgba(100,100,100,1);
-    z-index: 1;
-    top: 20px;
-    right: 0;
-    border-radius: 10px 0 0 10px; 
-    outline:none;
+#searchbutton{
+  width: 60px;
+  height: 50px;
+  background-image: url('../_assets/images/search.png'); /* KOYAMADIM YA LAN! */
+  background-color: transparent;
+  background-position: 10px 10px;
+  right: 0;
+  top: 15px;
+  position: absolute;
+  display: block;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  transition: 0.7s;
 }
 
-.searchbutton:placeholder{
+#searchbutton::placeholder{
   color:white;
 }
 
-.searchbutton:search{
-  color:red;
-}
-
-.searcharea{
-  width: 150px;
-  float: right;
-  background-color: pink;
-  position: relative;
-  height: 80px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.6s ease-in-out;
-}
-
-.searcharea:focus{
-    width:100%;
-    display: block;
-
-}
-
-.searchbutton img{
+#searchbutton:focus{
+  width: 80%;
   z-index: 2;
-  left: 0;
+  background-color: rgba(166, 89, 128, 0.9);
 }
