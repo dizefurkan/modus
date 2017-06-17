@@ -1,0 +1,113 @@
+
+.footer{
+	position: relative;
+	width: 100%;
+	height: 350px;
+	background-color: #a65980;
+	box-sizing: border-box;
+	padding-top: 44px;
+}
+.footer .topimage{
+	background-image: url(../_assets/images/footer-top-image2.png);
+	background-repeat: no-repeat;
+	height: 121px;
+	width: 100%;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+}
+.footer__container{
+	width: 1170px;
+	height: 256px;
+	background-color: transparent;
+	margin: 0 auto;
+	position: relative;
+}
+
+.footer__aboutUs{
+	position: relative;
+	width: 370px;
+	display: inline-block;
+	float: left;
+}
+
+.footer__aboutUs p,h3{
+	color: white;
+	display: inline-block;
+}
+
+.footer__aboutUs .footer__Logo{
+	width: 192px;
+	height: 21px;
+	padding-bottom: 34px;
+}
+
+.footer__aboutUs__menu{
+	float: left;
+	width: 335px;
+	color: white;
+	padding-left: 30px;
+}
+
+.footer__aboutUs__menu ul{
+	list-style: none;
+}
+.footer__aboutUs__menu li{
+	padding-bottom: 13px;
+}
+
+.footer__aboutUs__menu h3{
+	color:#68364f;
+	font-size: 20px;
+	padding-bottom: 34px;
+}
+
+.footer__aboutUs__menu .footer__aboutUs__menuCompany{
+	display: inline-block;
+	float: left;
+}
+
+.footer__aboutUs__menu .footer__aboutUs__menuCommunity{
+	display: inline-block;
+	float: left;
+	padding-left: 100px;
+}
+
+
+.footer__aboutUs__fromTheBlog{
+	display: inline-block;
+	float: left;
+	width: 264px;
+	padding-left: 65px;
+
+}
+
+.footer__aboutUs__fromTheBlog > .italic{
+	font-style: italic;
+	display: inline-block;
+	font-size: 20px;
+	color: white;
+}
+
+.footer__aboutUs__fromTheBlog > h2{
+	font-size: 20px;
+	color: white;
+	display: inline-block;
+}
+
+.footer__bottom{
+	position: relative;
+	width: 100%;
+	background-color: #955073;
+}
+
+.footer__bottom__container{
+	position: relative;
+	width: 1170px;
+	margin: 0 auto;
+	height: 50px;
+}
+
+.clearfix{
+	clear: both;
+}
