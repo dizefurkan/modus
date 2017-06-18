@@ -3,6 +3,10 @@
 	position: relative;
 	display: block;
 	background-color: rgba(166, 89, 128, 1);
+  background-image: url(../_assets/images/footer-top-image2.png);
+  background-repeat: no-repeat;
+  height: 121px;
+  width: 100%;
 }
 
 .header, .header__logo, .header__menu{
@@ -16,26 +20,25 @@
 
 }
 
-.header .header__menu{
+.header ul.header__menu{
 	width: 802px;
 	float: right;
 	position: relative;
 	display: block;
 }
 
-.header .header__menu__menuList{
+.header li.header__menu__item{
 	padding: 0;
 	margin: 0;
 }
-
-.header .header__menu__menuList li{
+ul.header__menu > li.header__menu__item{
 	padding-left: 0;
 	list-style: none;
 	display: inline-block;
   padding: 0 11.5px;
 }
 
-.header .header__menu, a{
+.header ul.header__menu, a{
 	text-decoration: none;
 	color: white;
 	font-size: 15px;
@@ -44,11 +47,11 @@
 	display: inline-block;
 }
 
-.header__menu__menuList{
+li.header__menu__item{
 	cursor: default;
 }
 
-.header .header__menu__menuList li a:hover{
+.header li.header__menu__item a:hover{
 	transition: 0.3s;
   text-decoration: underline;
 }
@@ -72,7 +75,7 @@
   position: absolute;
   outline: none;
   border: none;
-  border-right: 1px solid white;
+  border-left: 0.5px solid white;
   color: white;
   transition: 0.7s;
   line-height: 3;           /* Irrelevant, I guess */
@@ -85,9 +88,9 @@
 }
 
 #searchbutton:focus{
-  width: 100%;
+  width: 802px;
   border:none;
-  border: 1px solid white;
+  border-left: 0.5px solid white;
   z-index: 2;
   background-color: rgba(166, 89, 128, 0.95);
 }
