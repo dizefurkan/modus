@@ -36,72 +36,72 @@
 	display: inline-block;
 }
 
-.footer__aboutUs .footer__Logo{
+.footer__aboutUs .footer__logo{
 	width: 192px;
 	height: 21px;
 	padding-bottom: 34px;
 }
 
-.footer__aboutUs__menu{
+.footer__menu{
 	float: left;
 	width: 335px;
 	color: white;
 	padding-left: 30px;
 }
 
-.footer__aboutUs__menu ul{
+.footer__menu ul{
 	list-style: none;
 }
-.footer__aboutUs__menu li{
+.footer__menu li{
 	padding-bottom: 13px;
 }
 
-.footer__aboutUs__menu h3{
+.footer__menu h3{
 	color:#68364f;
 	font-size: 20px;
 	padding-bottom: 34px;
 }
 
-.footer__aboutUs__menu .footer__aboutUs__menuCompany{
+.footer__menu .footer__menu__company{
 	display: inline-block;
 	float: left;
 }
 
-.footer__aboutUs__menu .footer__aboutUs__menuCommunity{
+.footer__menu .footer__menu__community{
 	display: inline-block;
 	float: left;
 	padding-left: 100px;
 }
 
 
-.footer__aboutUs__fromTheBlog{
+.footer__fromTheBlog{
 	display: inline-block;
 	float: left;
 	width: 370px;
 	padding-left: 65px;
 }
 
-.footer__aboutUs__fromTheBlog > .italic{
+.footer__fromTheBlog > .italic{
 	font-style: italic;
 	display: inline-block;
 	font-size: 20px;
 	color: white;
 }
 
-.footer__aboutUs__fromTheBlog > h2{
+.footer__fromTheBlog > h2{
 	font-size: 20px;
 	color: white;
 	display: inline-block;
 	padding-bottom: 29px;
 }
 
-.footer__aboutUs__fromTheBlog > .blog{
+.footer__fromTheBlog > .blog{
 	height: 70px;
 	width: 360px;
 	padding-bottom: 20px;
 }
 
-.footer__aboutUs__fromTheBlog > .blog > .blog__leftimg{
+.footer__fromTheBlog > .blog > .blog__leftimg{
 	width: 70px;
 	height: 70px;
 	background-color: rgba(1,1,1,0.1);	
@@ -111,14 +111,14 @@
 	float: left;
 }
 
-.footer__aboutUs__fromTheBlog > .blog > .blog__leftimg > img{
+.footer__fromTheBlog > .blog > .blog__leftimg > img{
 	opacity: 0.5; 
 	position:absolute;
 	top: 0;	left: 0; right: 0; bottom: 0;
 	margin:auto;
 }
 
-.footer__aboutUs__fromTheBlog > .blog > .blog__right{
+.footer__fromTheBlog > .blog > .blog__right{
 	padding-left: 19px;
 	float: left;
 	display: inline-block;
@@ -126,11 +126,11 @@
 	line-height: 18px;
 }
 
-.footer__aboutUs__fromTheBlog > .blog > .blog__right > p{
+.footer__fromTheBlog > .blog > .blog__right > p{
 	color: white;	
 }
 
-.footer__aboutUs__fromTheBlog > .blog > .blog__right > .tarih{
+.footer__fromTheBlog > .blog > .blog__right > .tarih{
 	color: #68364f;	
 }
 

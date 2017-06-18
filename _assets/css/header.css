@@ -5,37 +5,37 @@
 	background-color: rgba(166, 89, 128, 1);
 }
 
-.header, .logo, .menu{
+.header, .header__logo, .header__menu{
 	display: block;
 	float: left;
 	height: 80px;
 }
 
-.logo>img{
+.header__logo > img{
 	height: 80px;
 
 }
 
-.header .menu{
+.header .header__menu{
 	width: 802px;
 	float: right;
 	position: relative;
 	display: block;
 }
 
-.header .menu-list{
+.header .header__menu__menuList{
 	padding: 0;
 	margin: 0;
 }
 
-.header .menu-list li{
+.header .header__menu__menuList li{
 	padding-left: 0;
 	list-style: none;
 	display: inline-block;
   padding: 0 11.5px;
 }
 
-.header .menu, a{
+.header .header__menu, a{
 	text-decoration: none;
 	color: white;
 	font-size: 15px;
@@ -44,16 +44,16 @@
 	display: inline-block;
 }
 
-.menu-list{
+.header__menu__menuList{
 	cursor: default;
 }
 
-.header .menu-list li a:hover{
+.header .header__menu__menuList li a:hover{
 	transition: 0.3s;
   text-decoration: underline;
 }
 
-.header-container{
+.header__container{
 	width: 1089px;
 	height: 80px;
 	position: relative;
