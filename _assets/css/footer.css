@@ -32,7 +32,7 @@
 .footer__aboutUs .footer__logo{
 	width: 192px;
 	height: 21px;
-	padding-bottom: 34px;
+	padding-bottom: 15px;
 }
 
 .footer__menu{
@@ -52,12 +52,16 @@
 .footer__menu h3{
 	color:#68364f;
 	font-size: 20px;
-	padding-bottom: 34px;
+	padding-bottom: 16px;
 }
 
 .footer__menu .footer__menu__company{
 	display: inline-block;
 	float: left;
+}
+
+.footer__menu li.footer__menu__company__item{
+	padding-left: 25px;
 }
 
 .footer__menu .footer__menu__community{
@@ -66,6 +70,9 @@
 	padding-left: 100px;
 }
 
+.footer__menu li.footer__menu__community__item{
+	padding-left: 25px;
+}
 
 .footer__blog{
 	display: inline-block;
@@ -85,7 +92,7 @@
 	font-size: 20px;
 	color: white;
 	display: inline-block;
-	padding-bottom: 29px;
+	padding-bottom: 16px;
 }
 
 .footer__blog > .blog{
