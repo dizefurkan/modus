@@ -55,23 +55,20 @@
 	padding-bottom: 16px;
 }
 
-.footer__menu .footer__menu__company{
+.footer__menu > .footer__menu__company{
 	display: inline-block;
 	float: left;
 }
 
-.footer__menu li.footer__menu__company__item{
-	padding-left: 25px;
-}
-
-.footer__menu .footer__menu__community{
+.footer__menu > .footer__menu__community{
 	display: inline-block;
 	float: left;
 	padding-left: 75px;
 }
 
-.footer__menu li.footer__menu__community__item{
+.footer__menu > .footer__menu__company > .footer__menu__item, .footer__menu > .footer__menu__community > .footer__menu__item{
 	padding-left: 25px;
+	padding-bottom: 12px;
 }
 
 .footer__blog{
