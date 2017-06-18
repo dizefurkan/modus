@@ -48,18 +48,19 @@
 	padding-bottom: 16px;
 }
 
-.footer__menu > .footer__menu__company{
+.footer__menu__company{
 	display: inline-block;
 	float: left;
 }
 
-.footer__menu > .footer__menu__community{
+.footer__menu__community{
 	display: inline-block;
 	float: left;
 	padding-left: 75px;
 }
 
-.footer__menu > .footer__menu__company > .footer__menu__item, .footer__menu > .footer__menu__community > .footer__menu__item{
+.footer__menu__company > .footer__menu__item,
+.footer__menu__community > .footer__menu__item{
 	padding-left: 25px;
 	padding-bottom: 12px;
 }
@@ -73,16 +74,15 @@
 
 .footer__blog > .italic{
 	font-style: italic;
-	display: inline-block;
 	font-size: 20px;
 	color: white;
 }
 
-.footer__blog > h2{
+.footer__blog > .baslik{
 	font-size: 20px;
 	color: white;
-	display: inline-block;
 	padding-bottom: 16px;
+	display: inline-grid;
 }
 
 .footer__blog > .blog{
@@ -138,7 +138,7 @@
 	height: 50px;
 }
 
-.footer__bottom > .footer__bottom__container > .footer__bottom__copyright{
+.footer__bottom__container > .footer__bottom__copyright{
 	height: 50px;
 	width: 150px;
 	position: relative;
@@ -146,17 +146,17 @@
 	float: left;
 }
 
-.footer__bottom > .footer__bottom__container > .footer__bottom__copyright > p{
+.footer__bottom__container > .footer__bottom__copyright > p{
 	color: white;
 	line-height: 50px;
 }
 
-.footer__bottom > .footer__bottom__container > .footer__bottom__socialMedia{
+.footer__bottom__container > .footer__bottom__socialMedia{
 	float: right;
 	height: 50px;
 }
 
-.footer__bottom > .footer__bottom__container > .footer__bottom__socialMedia > img{
+.footer__bottom__container > .footer__bottom__socialMedia > img{
 	padding-left: 30px;
 	height: 20px;
 	padding-top: 15px;
