@@ -3,7 +3,6 @@
 	position: relative;
 	display: block;
 	background-color: rgba(166, 89, 128, 1);
-  background-image: url(../_assets/images/footer-top-image2.png);
   background-repeat: no-repeat;
   height: 121px;
   width: 100%;
@@ -67,18 +66,16 @@ li.header__menu__item{
 
 #searchbutton{
   width: 100px;
-  height: 50px;
+  top:15px;
+  height: 40px;
   background-color: transparent;
-  background-position: 10px 10px;
   right: 0;
-  top: 15px;
   position: absolute;
   outline: none;
   border: none;
   border-left: 0.5px solid white;
   color: white;
   transition: 0.7s;
-  line-height: 3;           /* Irrelevant, I guess */
   text-align: center;
   display: block;
 }
